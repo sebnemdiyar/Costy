@@ -19,6 +19,7 @@ footer {
         font-size: 128px;
         text-transform: uppercase;
       }
+
       .social {
         display: flex;
         align-items: center;
@@ -29,7 +30,6 @@ footer {
           padding: 10px;
           font-size: 17px;
           border-radius: 50%;
-
           i {
             color: variables.$main-color;
           }
@@ -40,23 +40,23 @@ footer {
         font-size: 35px;
       }
 
-      ul{
-       margin-top: 30px;
-       display: flex;
-       flex-direction: column;
-       gap: 15px; 
+      ul {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
 
-       li{
-        a{
+        li {
+          a {
             color: variables.$bg-color;
             font-size: 17px;
+          }
         }
-       }
       }
     }
   }
 
-  .copyright{
+  .copyright {
     padding: 50px;
     font-size: 20px;
   }

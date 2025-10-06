@@ -1,9 +1,8 @@
 @use "./variables";
-
 header {
   background-color: variables.$header-color;
   position: sticky;
-    height: 80px;
+  height: 80px;
   top: 0;
   left: 0;
   width: 100%;
@@ -18,7 +17,6 @@ header {
     a {
       color: variables.$main-color;
     }
-
     // Menu Button
     #menu-btn {
       font-size: 28px;
@@ -26,10 +24,12 @@ header {
       cursor: pointer;
       display: none;
     }
+
     // Logo
     .logo {
       font-size: 24px;
     }
+
     // Nav
     nav {
       display: flex;
@@ -48,7 +48,8 @@ header {
       cursor: pointer;
       position: relative;
     }
-    #basket-btn::after{
+
+    #basket-btn::after {
       content: attr(data-quantity);
       position: absolute;
       top: 0;
